@@ -1,0 +1,22 @@
+{
+  "name": "smashing-magazine-design",
+  "version": "1.0.0",
+  "description": "heatmap of smashing magazine website",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyatindopatrick/Smashing-Magazine-Design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyatindopatrick/Smashing-Magazine-Design/issues"
+  },
+  "homepage": "https://github.com/nyatindopatrick/Smashing-Magazine-Design#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^19.0.0"
+  }
+}

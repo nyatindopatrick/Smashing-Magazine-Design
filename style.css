@@ -63,7 +63,7 @@ ul {
 }
 .navbar p,
 .navbar a,
-body p {
+body p, h2, h3 {
   display: block;
   text-align: center;
   position: relative;
@@ -122,24 +122,58 @@ body p {
 .person-week {
   height: 50vh;
   background: grey;
+  display: grid;
+  grid-template-columns: 30% 60%;
 }
 .person-week div {
-  width: 15%;
-  height: 50%;
+  max-width: 200px;
+  max-height:  200px;
+  width: 40%;
+  height: 70%;
   background: #6a6a6a;
   border-radius: 5px;
   position: relative;
   top: 15%;
   margin: 0 5rem;
-  transform: scale(1.2) rotateZ(calc(11 * 1deg));
+  transform: scale(1.1) rotateZ(calc(11 * 1deg));
 }
 
 .writers div {
   border: 1px solid;
-  height: 20vh;
+  min-height: 300px;
+  max-height: 30vh;
 }
 
 .writers {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.booking-section {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	background: grey;
+	grid-template-rows: 40vh 80vh;
+	grid-gap: 20px;
+}
+.booking-section div {
+	border: 1px solid;
+}
+.smashing-books {
+	grid-column: 1/sp;
+}
+
+.subscribe {
+	width: 80%;
+	background: blue;
+	margin: 60px auto;
+	border-radius: 8px;
+	padding: 20px 30px;
+	height: 100vh;
+}
+
+footer {
+	background: lightgray;
+	height: 80vh;
+	padding: 40px;
 }
