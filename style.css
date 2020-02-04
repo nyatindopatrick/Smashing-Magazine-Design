@@ -8,12 +8,13 @@ a,
 p,
 h2,
 h3 {
-  display: flex;
+  display: block;
   align-items: center;
   position: relative;
   top: 40%;
   color: white;
   text-decoration: none;
+  text-align: center;
 }
 
 /* ----------- Navigation Bar------------ */
