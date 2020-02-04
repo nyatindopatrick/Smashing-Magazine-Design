@@ -67,7 +67,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.latest-articles div {
+.latest-articles article {
   height: 70vh;
   background: rgb(206, 206, 206);
   border: 0.5px solid;
@@ -100,7 +100,7 @@ ul {
   grid-gap: 20px;
 }
 
-.booking-section div {
+.booking-section article {
   border: 1px solid;
   background: grey;
 }
@@ -117,12 +117,7 @@ ul {
   margin: 20px 30px;
 }
 
-.membership div {
-  border: 1px solid;
-  padding: 1rem;
-}
-
-.membership-news div {
+.membership-news article {
   border: 1px solid;
   padding: 1rem;
 }
@@ -157,7 +152,7 @@ ul {
   grid-template-columns: 30% 60%;
 }
 
-.person-week div {
+.person-week article {
   max-width: 200px;
   max-height: 200px;
   width: 40%;
@@ -176,7 +171,7 @@ ul {
   color: black;
 }
 
-.writers div {
+.writers article {
   border: 0.5px solid rgb(84, 84, 84);
   min-height: 300px;
   max-height: 30vh;
@@ -192,7 +187,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.tutorials div {
+.tutorials article {
   border: 1px solid;
   background-color: grey;
 }
@@ -203,7 +198,7 @@ ul {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.tutorials div:nth-child(4),
+.tutorials article:nth-child(4),
 .forth-tutorial {
   background: #e4e4e4;
   color: black;
